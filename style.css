@@ -1,0 +1,214 @@
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    height: calc(100vh - 5px);
+}
+.header{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 9999;
+}
+.header-container{
+    display: flex;
+    padding: 1%;
+    text-align: center;
+}
+.navbar{
+    width: 50%;
+}
+.logo{
+    width: 25%;
+}
+.nav-app-logo{
+    width: 25%;
+    align-content: center;
+}
+.nav-app-logo i{
+    color: #0abcbc;
+    transition: all 300ms linear;
+    padding: 1%;
+}
+.nav-app-logo i:hover{
+    color: #0ad3d3;
+}
+.nav-bar-box{
+    display: flex;
+    padding-right: 30%;
+}
+.nav-bar-box li {
+    padding: 1.5%;
+    text-transform: capitalize;
+}
+.nav-bar-box li a {
+    color: #535353;
+    transition: all 300ms linear;
+}
+.nav-bar-box li a:hover {
+    color: #0abcbc;
+}
+.logo span{
+    color: #0abcbc;
+}
+main{
+    width: 100%;
+    padding-top: 4%;
+}
+.title-box{
+    background-image: linear-gradient(#3de1e1, #365e5e);
+}
+.title-text{
+    padding: 3%;
+    height: 42rem;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+h1{
+    font-size: 4.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+.title-text p{
+    margin-bottom: 1%;
+}
+.button-line{
+    width: 100%;
+    display: flex;
+}
+.title-button{
+    width: 18%;
+    padding: 1%;
+    background-color: white;
+    color: #0abcbc;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: 2px solid white;
+    transition: all 300ms linear;
+}
+.title-button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.about-box{
+    width: 100%;
+    background-color: white;
+}
+.about-box h3{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1%;
+}
+.about-box h3 span{
+    color: #0abcbc;
+}
+.about-container{
+    width: 100%;
+    padding: 4%;
+    display: flex;
+}
+.about-text-box{
+    padding: 2%;
+}
+.about-text-box h5{
+    font-size: 1.7rem;
+    margin-bottom: 1%;
+}
+.about-text-box p{
+    margin-bottom: 3%;
+}
+.about-text-box h5 span{
+    color: #0abcbc;
+}
+
+.about-button{
+    width: 18%;
+    padding: 1%;
+    background-color: #0abcbc;
+    color: white; ;
+    margin: 0 auto;
+    text-transform: uppercase;
+    transition: all 300ms linear;
+    text-align: center;
+}
+.about-button:hover{
+    background-color: #21e3e3;
+    color: #474747;
+}
+.services-box{
+    background-color: #F1F5F7;
+}
+.services-box h6{
+    text-align: center;
+    padding: 1%;
+    font-size: 2.7rem;
+}
+.services-box h6 span{
+    color: #0abcbc;
+}
+.services-item-container{
+    padding-bottom: 5%;
+    display: flex;
+    gap: 3%;
+}
+.item{
+    width: 30%;
+    display: flex;
+}
+.item p{
+    font-size: .8rem;
+}
+.icon-box{
+    background-color: #4EA5B8;
+    color: #1A4A51;
+    padding: 3%;
+    margin: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.featured-box{
+    width: 100%;
+    background-color: white;
+}
+
+.featured-box>h6{
+    text-align: center;
+    padding: 1%;
+    font-size: 2.7rem;
+}
+.featured-box>h6>span{
+    color: #0abcbc;
+}
+.featured-item-box{
+    width: 100%;
+    padding: 5% 5% 0 5% ;
+    gap: 8%;
+    display: flex;
+    align-items: center;
+}
+.featured-cart{
+    background-color: #F1F5F7;
+}
+
+.featured-item-text{
+    padding: 2%;
+    text-align: center;
+}
